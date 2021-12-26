@@ -218,11 +218,19 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #fffefe !important;
+        background: #000000 !important;
+        ;    }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .nav-link:focus {
+         padding: 10px 10px 8px 10px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 500;
     }
     
     .navbar .navbar-brand {
         color: #008000;
+       font-size: 25px;
     }
     
     .navbar .navbar-nav {
@@ -333,7 +341,7 @@ a:focus {
 
 @media (max-width: 991.98px) {
     .hero {
-        padding-top: 60px;
+        padding-top: 10px;
     }
     
     .hero .hero-content {
@@ -341,7 +349,7 @@ a:focus {
     }
     
     .hero .hero-text p {
-        font-size: 20px;
+        font-size: 60px;
     }
     
     .hero .hero-text h1 {
@@ -361,7 +369,7 @@ a:focus {
 
 @media (max-width: 767.98px) {
     .hero {
-        padding-top: 60px;
+        padding-top: 35px;
         padding-bottom: 60px;
     }
     
